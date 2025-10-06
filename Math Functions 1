@@ -1,0 +1,18 @@
+import java.util.*;
+import java.math.*;
+
+public class Solution {
+
+    public static void main(String[] args) {
+        /* Enter your code here. Read input from STDIN. Print output to STDOUT. Your class should be named Solution. */
+        float a= 76.78f;
+        int b=16;
+        int c=2,d=3;
+        System.out.printf("\n %d",(int)Math.floor(a));
+        System.out.printf("\n %d",(int)Math.ceil(a));
+        System.out.printf("\n %d",(int)Math.sqrt(b));
+        System.out.printf("\n %d",(int)Math.pow(c,d));
+        
+        
+    }
+}
