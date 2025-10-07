@@ -1,0 +1,21 @@
+import java.io.*;
+import java.util.*;
+
+public class Demo {
+
+    public static void main(String[] args) {
+       Scanner sc=new Scanner(System.in);
+        int basic=sc.nextInt();
+        double HRA,DA,Gross;
+        if(basic<15000){
+            HRA=0.15*basic;
+            DA=0.90*basic;
+        }
+        else{
+            HRA=5000;
+            DA=0.98*basic;
+        }
+        Gross=basic+HRA+DA;
+        System.out.printf("%2f",Gross);
+    }
+}
