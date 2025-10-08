@@ -1,0 +1,27 @@
+import java.io.*;
+import java.util.*;
+import java.math.*;
+
+public class Demo1 {
+
+    public static void main(String[] args) {
+     Scanner sc=new Scanner(System.in);
+        int pizzas=sc.nextInt();
+        int puffs=sc.nextInt();
+        int cooldrinks=sc.nextInt();
+        int pizzaprice=100;
+        int puffprice=20;
+        int cooldrinkprice=10;
+        int totalpizzacost=pizzas*pizzaprice;
+        int totalpuffcost=puffs*puffprice;
+        int totalcooldrinkcost=cooldrinks*cooldrinkprice;
+        int totalprice=totalpizzacost+totalpuffcost+totalcooldrinkcost;
+        System.out.println("Bill details");
+        System.out.println("No of pizzas:"+pizzas);
+        System.out.println("No of puffs:"+puffs);
+        System.out.println("No of cooldrinks:"+cooldrinks);
+        System.out.println("Total price="+totalprice);
+        System.out.println("ENJOY THE SHOW!!!");
+        
+    }
+}
