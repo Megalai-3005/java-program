@@ -4,10 +4,11 @@ import java.math.*;
 public class Solution {
 
     public static void main(String[] args) {
-        /* Enter your code here. Read input from STDIN. Print output to STDOUT. Your class should be named Solution. */
-        float a= 76.78f;
-        int b=16;
-        int c=2,d=3;
+       Scanner sc=new Scanner(System.in);
+        float a = sc.nextFloat();
+        int b = sc.nextInt();
+        int c = sc.nextInt();
+        int d = sc.nextInt();
         System.out.printf("\n %d",(int)Math.floor(a));
         System.out.printf("\n %d",(int)Math.ceil(a));
         System.out.printf("\n %d",(int)Math.sqrt(b));
