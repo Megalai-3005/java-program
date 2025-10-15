@@ -1,0 +1,36 @@
+import java.util.*;
+   class Product
+{
+   String Name;
+   int prodId;
+   
+   Product(){
+     Name = "CPU" ;
+     prodId = 123 ;
+   }
+   Product(String n){
+       Name = n;
+       prodId = 345;
+   }
+   Product(String n,int a){
+       Name = n;
+       prodId = a;
+   }
+   void display(){
+       System.out.println("ProdName: " +Name);
+       System.out.println("ProdId: " +prodId);
+   }
+	}
+ public class Main{
+     public static void main (String[] args){
+         Scanner sc = new Scanner(System.in);
+         String n = sc.nextLine();
+         int a = sc.nextInt();
+         Product p1 = new Product();
+        Product p2 = new Product(n);
+         Product p3 = new Product(n,a); 
+        p1.display();
+         p2.display();
+          p3.display();
+     }
+ } 
